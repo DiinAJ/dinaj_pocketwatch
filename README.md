@@ -21,7 +21,7 @@ This script is a port of the **VORP Pocketwatch** system adapted to work with **
    Add the following line to your `resources.cfg`: ensure dinaj_pocketwatch
 
 
-Add items in "\rsg-core\shared\jobs.lua"
+Add items in "\rsg-core\shared\items.lua"
 
 ```    pocket_watch                        = { name = 'pocket_watch',                          label = 'Pocket Watch',                      weight = 500, type = 'item', image = 'pocket_watch.png', unique = false, useable = true, shouldClose = true, description = 'A pocket watch' },
     pocket_watch_gold                   = { name = 'pocket_watch_gold',                     label = 'Gold Pocket Watch',                 weight = 500, type = 'item', image = 'pocket_watch_gold.png', unique = false, useable = true, shouldClose = true, description = 'A gold pocket watch' },
